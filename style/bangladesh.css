@@ -38,7 +38,7 @@
     color: rgba(14, 14, 14, 0.7);
 }
 
-.card-title{
+.card-title {
     font-size: 20px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
@@ -55,6 +55,24 @@
     cursor: pointer;
 }
 
+.section-margin {
+    margin: 80px 0;
+}
+
+.card-btn {
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-top: 24px;
+    cursor: pointer;
+    width: auto;
+}
+
+/* *********************************************************** */
+
 /* Navbar style */
 .navbar {
     display: flex;
@@ -67,7 +85,8 @@
     font-weight: 700;
     color: #0E0E0E;
 }
-.nav-btn{
+
+.nav-btn {
     padding: 15px 30px;
     border-radius: 8px;
     border: 1px solid #006A50;
@@ -78,7 +97,7 @@
 }
 
 /* Hero section style */
-.banner{
+.banner {
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 80px 100px;
@@ -86,15 +105,18 @@
     align-items: center;
     gap: 64px;
 }
-.banner img{
+
+.banner img {
     max-width: 400px;
 }
-.hero-sub{
+
+.hero-sub {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
 }
-.hero-text{
+
+.hero-text {
     font-size: 56px;
     font-weight: 700;
     color: #0E0E0E;
@@ -104,22 +126,95 @@
 }
 
 /* Pillars Section style */
-.pillars{
-    margin: 80px 0;
-}
-.pillars-cards{
+
+.pillars-cards {
     display: flex;
     align-items: center;
     gap: 24px;
     margin-top: 32px;
 }
-.pillars-card{
+
+.pillars-card {
     flex: 1;
     padding: 24px;
     border-radius: 16px;
     background-color: white;
 }
-.pillars-card h4{
+
+.pillars-card h4 {
     margin-top: 24px;
     margin-bottom: 12px;
+}
+
+/* Vision Section Style */
+.vision-text {
+    margin-top: 24px;
+}
+
+.vision-cards {
+    display: flex;
+    gap: 24px;
+    margin: 32px 0;
+}
+
+.vision-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-card h4 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.card-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.card-2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.card-3 {
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.btn-1 {
+    background-color: #5490F5;
+}
+
+.btn-2 {
+    background-color: #09A15C;
+}
+
+.btn-3 {
+    background-color: #FFC239;
+}
+
+.quote{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 20px 25px ;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.quote-text h4{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 20px;
+}
+.quote-text p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.6);
 }
