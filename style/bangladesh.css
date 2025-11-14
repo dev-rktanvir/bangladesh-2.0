@@ -395,3 +395,21 @@ input[type="text"]::placeholder {
     cursor: pointer;
     font-weight: bold;
 }
+
+/* Footer style */
+.footer{
+    background-color: white;
+    text-align: center;
+    padding: 50px 160px;
+}
+.social{
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    max-width: 1122px;
+    margin: 32px auto;
+}
