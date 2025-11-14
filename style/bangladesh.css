@@ -38,6 +38,12 @@
     color: rgba(14, 14, 14, 0.7);
 }
 
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
 .btn-primary {
     border-radius: 8px;
     background-color: #006A50;
@@ -95,4 +101,25 @@
     max-width: 622px;
     margin-top: 16px;
     margin-bottom: 24px;
+}
+
+/* Pillars Section style */
+.pillars{
+    margin: 80px 0;
+}
+.pillars-cards{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+.pillars-card{
+    flex: 1;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: white;
+}
+.pillars-card h4{
+    margin-top: 24px;
+    margin-bottom: 12px;
 }
