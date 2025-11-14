@@ -70,6 +70,9 @@
     cursor: pointer;
     width: auto;
 }
+.text-center{
+    text-align: center;
+}
 
 /* *********************************************************** */
 
@@ -294,4 +297,42 @@
 }
 .mb-32{
     margin-bottom: 32px;
+}
+.donate-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: 32px 0;
+}
+.donate-card{
+    background-color: white;
+    border-radius: 16px;
+    padding: 40px;
+    cursor: pointer;
+}
+.donate-card:hover{
+    background-color: #C6E4D6;
+}
+.donate-text{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    cursor: pointer;
+}
+input[type="text"]{
+    padding: 20px 40px;
+    background-color: white;
+    border: none;
+    width: 1032px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 32px;
+}
+input[type="text"]::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    text-align: center;
+}
+.donate{
+    text-align: center;
 }
