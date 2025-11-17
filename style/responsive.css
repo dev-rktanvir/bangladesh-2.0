@@ -1,0 +1,108 @@
+/* responsive css for small devices */
+
+@media screen and (max-width: 576px) {
+
+    /* Global Css */
+    .section-title,
+    .news-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section-margin {
+        margin: 40px 0;
+    }
+
+    .text,
+    .quote-text {
+        text-align: justify;
+    }
+
+    /* Navbar */
+    .navbar {
+        padding: 24px;
+    }
+
+    /* Banner Section */
+    .banner {
+        flex-direction: column-reverse;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .hero-text {
+        font-size: 28px;
+    }
+
+    /* Pillars section */
+    .pillars-cards,
+    .vision-cards,
+    .table-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .vision-card {
+        align-items: center;
+    }
+
+    /* opinion section */
+    .table-row {
+        grid-template-columns: 1fr;
+    }
+
+    .que-container {
+        margin: 10px;
+    }
+
+    /* News */
+    .news-box {
+        flex-direction: column;
+        padding: 24px;
+    }
+
+    .news-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .news-box:nth-child(2n+2){
+        flex-direction: column;
+    }
+
+    /* Donate section */
+    .donate-container{
+        flex-direction: column;
+        margin: 32px 20px;
+    }
+    input[type="text"]{
+        width: 70%;
+    }
+
+    /* newslatter */
+    .newsletter {
+        padding: 40px 20px;
+    }
+
+    .email-submit {
+        flex-direction: column;
+        background: transparent;
+        overflow: visible;
+    }
+
+    .email-submit input {
+        background: white;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+
+    .email-submit button {
+        background: #006d53;
+        border-radius: 8px;
+        padding: 18px 40px;
+    }
+    /* footer */
+    .footer{
+        padding: 50px ;
+    }
+}
