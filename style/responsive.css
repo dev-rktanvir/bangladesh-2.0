@@ -21,6 +21,8 @@
     /* Navbar */
     .navbar {
         padding: 24px;
+        flex-direction: column;
+        gap: 10px;
     }
 
     /* Banner Section */
